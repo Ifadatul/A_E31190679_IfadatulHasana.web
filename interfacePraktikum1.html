@@ -1,0 +1,19 @@
+ interface car {
+        public function setModel($name);
+
+        public function getmodel();
+    }
+
+    class miniCar implements car {
+        private $model;
+
+        public function setModel($name)
+        {
+            $this -> model1 = $name;
+        }
+
+        public function getmodel()
+        {
+            return $this -> model;
+        }
+    }
